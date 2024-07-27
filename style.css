@@ -1,0 +1,57 @@
+/*header style*/
+header {
+    text-align: left; 
+    background-color: #6d6a6a;
+    padding: 5px;
+ }
+ /*navigation menu style*/
+ nav {
+    text-align: center;
+    background-color: aqua;
+    word-spacing: 30px;
+    Padding: 10px;
+   
+ }
+ /*creating the two-column layout*/
+ *{
+    box-sizing: border-box;
+ }
+ .row {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .post-text-box {
+    flex: 70%;
+    padding: 20px;
+ }
+ .profile {
+    flex: 70%;
+    padding: 20px;
+ }
+ /*profile image and heading style*/
+ .profile img {
+    width: 120px;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+ }
+ .profile h1 {
+    text-align: center;
+ }
+ /*this is the layout for the footer*/
+ footer {
+    margin-top: auto;
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-size: 16px;
+}
+.upper-right-block {
+    position: absolute;
+    top: 20px;
+    background-color: #6d6a6a;
+    right: 20px;
+    padding: 10px;
+    font-size: 30px
+    
+}
